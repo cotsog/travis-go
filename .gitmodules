@@ -1,0 +1,3 @@
+[submodule "tool/vendor/github.com/bpo/travis-go"]
+	path = tool/vendor/github.com/bpo/travis-go
+	url = https://github.com/bpo/travis-go.git

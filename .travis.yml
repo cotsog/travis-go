@@ -1,0 +1,14 @@
+sudo: false
+language: go
+ 
+env:
+  - GO15VENDOREXPERIMENT=1
+ 
+go:
+  - 1.5beta2
+ 
+script:
+  - go build
+  - ./travis-go
+  - cd tool && go build
+  - ./tool

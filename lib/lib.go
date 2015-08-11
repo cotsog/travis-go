@@ -5,5 +5,5 @@ import (
 )
 
 func Dostuff() {
-  fmt.Println("doing stuff")
+  fmt.Println("doing new stuff")
 }

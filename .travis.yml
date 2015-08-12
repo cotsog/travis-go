@@ -6,6 +6,9 @@ env:
  
 go:
   - 1.5beta2
+
+install:
+  - go get -t -v $(go list ./... | grep -v /vendor/)
  
 script:
   - go build
